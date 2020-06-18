@@ -12,6 +12,9 @@ class Post
     @@all
   end
   def author_name
-    @author.name
+    if @author.name.is_a(string)
+      @aurthor.name
+    else
+      nil
   end
 end
