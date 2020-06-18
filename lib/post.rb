@@ -12,10 +12,10 @@ class Post
     @@all
   end
   def author_name
-    if @author.name.is_a?(String)
-      @aurthor.name
-    else
+    if @author == nil
       nil
+    else
+      @author.name
     end
   end
 end
