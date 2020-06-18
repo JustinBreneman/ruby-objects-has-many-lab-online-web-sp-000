@@ -3,7 +3,7 @@ class Song
   @@all = []
   def initialize(name)
     @name = name
-#    self.artist.add_song(self)
+    save
   end
   def save
     @@all << self
