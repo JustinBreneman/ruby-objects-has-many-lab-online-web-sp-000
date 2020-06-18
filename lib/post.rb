@@ -16,5 +16,6 @@ class Post
       @aurthor.name
     else
       nil
+    end
   end
 end
